@@ -46,6 +46,15 @@
     .container {
       display: grid;
       grid-gap: 20px;
+      grid-template-areas: 
+        "Pickles Pickles Pickles Pickles Burger Burger Burger Burger"
+        "Pickles Pickles Pickles Pickles Burger Burger Burger Burger"
+        "Pickles Pickles Pickles Pickles Burger Burger Burger Burger"
+        "Pickles Pickles Pickles Pickles Burger Burger Burger Burger";
+    }
+    .item3 {
+      grid-column: Pickles-start / Burger-end;
+      grid-row-end: Pickles-end;
     }
   </style>
 </body>
